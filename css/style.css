@@ -1,0 +1,79 @@
+/*common start*/
+body{
+
+}
+/*common end*/
+/*header start*/
+header{
+  background-color: #121b2a;
+  padding: 10px 0;
+}
+.container{
+  width: 85%;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo{
+  width: 13%;
+  /*border: 1px solid green;*/
+  float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+  width: 70%;
+  /*border: 1px solid green;*/
+  float: right;
+}
+.menu ul{
+  float: right;
+  padding-top: 17px;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 15px;
+  color: white;
+  display: block;
+  transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+  color: #0078bd;
+}
+
+/*header end*/ 
+/*banner start*/
+.banner{
+  background-image: url(../images/blueg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.b_content{
+	margin-top: 200px;
+	margin-bottom: 150px;
+	width: 40%;
+	border: 1px solid red;
+}
+.b_content p:first-child{
+    color: white;
+    font-size: 30px;
+}
+.b_content h1{
+	color: white;
+	font-size: 40px;
+}
+.b_content p:last-child{
+
+}
+/*banner end*/
